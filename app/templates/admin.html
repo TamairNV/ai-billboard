@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Billboard admin</title>
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/admin.js" defer></script>
+</head>
+<body class="admin">
+<main>
+  <h1>Billboard admin</h1>
+  <p class="small">Hide takes a note off the wall. Block hides everything from that poster and stops new notes from them. Posters are salted IP hashes; "local" is the server itself.</p>
+  <p id="status" class="small"></p>
+  <table>
+    <thead><tr><th>#</th><th>Note</th><th>By</th><th>When</th><th>Poster</th><th></th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+</body>
+</html>
